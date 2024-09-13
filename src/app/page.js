@@ -22,7 +22,7 @@ export default function Home() {
       
       <div className="bg-rose-600 my-12 w-full lg:w-1/4 p-5 rounded-xl text-2xl">
         <h1 className="text-4xl text-center items-center justify-center mb-8 font-bold text-black cali">Aktiviteter</h1>
-          <Aktivitet title="Søjlecafée!" img="/cafe/2xstorm.png"desc={<p>I løbet af året afholder Drømmeudvalget <b>Søjlecaféer</b>, som er caféer, der afholdes særligt for hver studieretning.</p>}/>
+          <Aktivitet title="Søjlecafée!" img="/Cafe/2xstorm.png"desc={<p>I løbet af året afholder Drømmeudvalget <b>Søjlecaféer</b>, som er caféer, der afholdes særligt for hver studieretning.</p>}/>
           <Aktivitet title="Santa Lucia" img="/SantaLucia/SantaLucia.png" desc={<p>Engleklang og smurte kroppe, hvad mere kunne man ønske sig til jul? Drømmeudvalget står hvert December måned for at levere det fedeste <b>Luciaoptog</b>.</p>} />
           <Aktivitet title="Valentinshilsner" img="/Valentin/2g.png" desc={<p>Drømmeudvalget sørger for kærligheden! For kun <span className="underline font-bold italic">5 kr.</span> kan du frem til Valentinsdag sende en kærlighedsfe ud med en personlig hilsen og en slikkepind til dit crush eller en ven.</p>} />
       </div>
